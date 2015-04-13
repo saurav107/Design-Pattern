@@ -22,7 +22,7 @@ public class ShoppingCartTest {
        
        PaypaStrategy pal = new PaypaStrategy("myemail@example.com", "mypwd");
        cart.pay(pal);
-       cart.pay(new CreditCardStrategy("Pankaj Kumar asdf", "1234567890123456", "786", "12/15") );
+       cart.pay(new CreditCardStrategy("Pankaj Kumar asdf1", "1234567890123456", "786", "12/15") );
        
     }
     
